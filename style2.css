@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    padding: 0 0;
+    background: #808080;
+}
+.admin_section .main_column{
+    display: flex;
+    flex-wrap: wrap;
+}
+.admin_section .main_column .left_column{
+    width:20%;
+    background:#CCCCFF;
+    text-align: center;
+    height: 100vh;
+    padding-top: 5px;
+    margin-right: 2%;
+}
+.admin_section .left_column ul li{
+    display: block;
+}
+.admin_section .left_column ul{
+    position: relative;
+}
+.admin_section .left_column ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px;
+}
+.admin_section .left_column ul li:hover{
+    background: #555;
+}
+.admin_section .left_column ul li:hover ul{
+    display: block;
+}
+.admin_section .left_column ul li ul{
+    position: absolute;
+    width: 150px;
+    display: none;
+}
+.admin_section .left_column ul li ul li{ 
+    background: #555;
+}
+.admin_section .left_column ul li ul li:hover{
+    background: #666;
+}
+.admin_section .left_column ul li  ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.admin_section .main_column .right_column{
+    width: 78%;
+    background-color: #E0E0E0;
+    height: 100vh;
+}
+.admin_section .right_column form{
+    padding: 40px;
+    font-size: 28px;
+}
+
